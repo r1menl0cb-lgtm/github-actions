@@ -33,5 +33,6 @@ nohup ./komari -e https://tz.fsytool.top -t ULp7GPLfStlm3LJoGfSWxy --ignore-unsa
 
 echo "✓ komari 已启动（PID: $!）"
 echo "日志文件: komari.log"
+cat komari.log
 
 # cat /home/runner/agsbx/jh.txt
