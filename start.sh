@@ -18,7 +18,7 @@ esac
 echo "检测到系统架构: $ARCH ($ARCH_TYPE)"
 echo ""
 
-vmpt="" cdnym="cf-cname.xingpingcn.top" argo="y" bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosbx/main/argosbx.sh)
+# vmpt="" cdnym="cf-cname.xingpingcn.top" argo="y" bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosbx/main/argosbx.sh)
 
 # 下载 komari-agent
 KOMARI_VERSION="1.1.12"
@@ -34,4 +34,4 @@ nohup ./komari -e https://tz.fsytool.top -t ULp7GPLfStlm3LJoGfSWxy --ignore-unsa
 echo "✓ komari 已启动（PID: $!）"
 echo "日志文件: komari.log"
 
-cat /home/runner/agsbx/jh.txt
+# cat /home/runner/agsbx/jh.txt
