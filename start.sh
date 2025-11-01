@@ -29,10 +29,10 @@ wget -q --show-progress "$KOMARI_URL" -O komari
 chmod +x komari
 
 echo "启动 komari 监控服务..."
-nohup ./komari -e https://tz.fsytool.top -t ULp7GPLfStlm3LJoGfSWxy --ignore-unsafe-cert --memory-include-cache > komari.log 2>&1 &
+nohup ./komari -e https://tz.fsytool.top -t ULp7GPLfStlm3LJoGfSWxy --ignore-unsafe-cert --memory-include-cache > ./komari.log 2>&1 &
 
 echo "✓ komari 已启动（PID: $!）"
 echo "日志文件: komari.log"
-cat komari.log
+cat ./komari.log
 
 # cat /home/runner/agsbx/jh.txt
